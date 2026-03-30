@@ -2,62 +2,33 @@
 title: Harish Sharma | Technical Lead
 description: Technical Lead and Polyglot Software Architect with 12.5+ years of experience.
 remote_theme: jglovier/resume-template
+plugins:
+  - jekyll-remote-theme
 
-# Personal Information
-name: Harish Sharma
-user_title: Technical Lead | Polyglot Software Architect
-email: iamharish15@gmail.com
-phone: "+91 9176493388"
-website: https://harishsharma15.github.io
-
-# Social Links
-github_username: harishsharma15
-linkedin_username: iamharish15
-
-# Profile Summary
-about_me: >
+# Resume Configuration
+resume_theme: default
+resume_name: Harish Sharma
+resume_title: Technical Lead | Polyglot Software Architect
+resume_contact_email: iamharish15@gmail.com
+resume_contact_telephone: "+91 9176493388"
+resume_header_intro: >
   Strategic Technical Lead with 12.5+ years of experience building high-scale distributed systems and leading cross-functional teams. 
   Expert in System Design, Microservices, and Domain-Driven Design (DDD). 
   Proven track record at Thoughtworks and Symantec in modernizing legacy architectures and driving engineering excellence through AI-assisted workflows.
 
-# Work Experience
-experience:
-  - company: Thoughtworks
-    role: Technical Lead (Senior Consultant)
-    duration: Oct 2020 &mdash; Present
-    description: >
-      Orchestrating system design and solution discovery for a high-revenue global automotive sales platform.
-      Leading strategic migration of legacy services to modern architectures using DDD and Kotlin/Spring Boot.
-      Mentoring 10+ members on integrating GitHub Copilot and custom AI agents into daily workflows.
+# Social Links
+resume_social_links:
+  resume_github_url: https://github.com/harishsharma15
+  resume_linkedin_url: https://linkedin.com/in/iamharish15
+  resume_website_url: https://harishsharma15.github.io
 
-  - company: TrueFan
-    role: Lead Backend Engineer
-    duration: Sep 2020 &mdash; Oct 2020
-    description: Directed a multi-disciplinary team of engineers and QAs to execute core business features in a high-velocity startup.
-
-  - company: Precisely
-    role: Advisory Software Engineer
-    duration: Jan 2020 &mdash; Sep 2020
-    description: Designed enterprise-grade RESTful services and location intelligence solutions using Java EE and integration patterns.
-
-  - company: SHEROES
-    role: Senior Software Engineer
-    duration: Oct 2017 &mdash; Jan 2020
-    description: >
-      Architected SDK integrations that powered a 20X increase in active users within 12 months.
-      Achieved a 70% reduction in API latency and halved issue resolution time via ELK stack observability.
-
-# Skills Category
-skills:
-  - title: Languages & Frameworks
-    content: Java, Kotlin, Spring Boot, Spring MVC, Python, ReactJS, TypeScript
-  - title: Architecture & Infrastructure
-    content: Distributed Systems, Kafka, MySQL, Redis, AWS, Kubernetes, Terraform
-  - title: AI & Productivity
-    content: LLM-based agents (Ollama), GitHub Copilot, AI-Assisted Development
-
-# Education
-education:
-  - name: Kurukshetra University
-    degree: Bachelor of Technology (Computer Science)
-    year: 2012
+# Display Sections
+resume_section_experience: true
+resume_section_education: true
+resume_section_skills: true
+resume_section_projects: false
+resume_section_recognition: false
+resume_section_links: false
+resume_section_associations: false
+resume_section_interests: false
+resume_print_social_links: true
