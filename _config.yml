@@ -1,63 +1,63 @@
-# Site settings
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
+# Site Settings
+title: Harish Sharma | Technical Lead
+description: Technical Lead and Polyglot Software Architect with 12.5+ years of experience.
+remote_theme: jglovier/resume-template
 
-# Build settings
-markdown: kramdown
-sass:
-  sass_dir: _sass
-  style: compressed
+# Personal Information
+name: Harish Sharma
+user_title: Technical Lead | Polyglot Software Architect
+email: iamharish15@gmail.com
+phone: "+91 9176493388"
+website: https://harishsharma15.github.io
 
-# Resume settings
-resume_avatar:                  "true"
-resume_name:                    "Lisa M. Simpson"
-resume_title:                   "VP of Global Communications"
+# Social Links
+github_username: harishsharma15
+linkedin_username: iamharish15
 
-# used for the contact button in _layouts/resume.html
-resume_contact_email:           "lisasimpson@youremailaddress.com"
+# Profile Summary
+about_me: >
+  Strategic Technical Lead with 12.5+ years of experience building high-scale distributed systems and leading cross-functional teams. 
+  Expert in System Design, Microservices, and Domain-Driven Design (DDD). 
+  Proven track record at Thoughtworks and Symantec in modernizing legacy architectures and driving engineering excellence through AI-assisted workflows.
 
-# the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "555-7334"
-resume_contact_address:         "742 Evergreen Terrace, Springfield"
+# Work Experience
+experience:
+  - company: Thoughtworks
+    role: Technical Lead (Senior Consultant)
+    duration: Oct 2020 &mdash; Present
+    description: >
+      Orchestrating system design and solution discovery for a high-revenue global automotive sales platform.
+      Leading strategic migration of legacy services to modern architectures using DDD and Kotlin/Spring Boot.
+      Mentoring 10+ members on integrating GitHub Copilot and custom AI agents into daily workflows.
 
-resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
-display_header_contact_info:    "false"
+  - company: TrueFan
+    role: Lead Backend Engineer
+    duration: Sep 2020 &mdash; Oct 2020
+    description: Directed a multi-disciplinary team of engineers and QAs to execute core business features in a high-velocity startup.
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+  - company: Precisely
+    role: Advisory Software Engineer
+    duration: Jan 2020 &mdash; Sep 2020
+    description: Designed enterprise-grade RESTful services and location intelligence solutions using Java EE and integration patterns.
 
-# use "yes" to display the email contact button,
-# "no" to display an "I'm not looking for work" message,
-# or remove the resume_looking_for_work option entirely
-# to leave blank
-resume_looking_for_work:        "yes"
+  - company: SHEROES
+    role: Senior Software Engineer
+    duration: Oct 2017 &mdash; Jan 2020
+    description: >
+      Architected SDK integrations that powered a 20X increase in active users within 12 months.
+      Achieved a 70% reduction in API latency and halved issue resolution time via ELK stack observability.
 
-# Decide which sections to use
-# comment out to hide
-resume_section_experience:      true
-resume_section_education:       true
-resume_section_projects:        true
-resume_section_skills:          true
-resume_section_recognition:     true
-resume_section_links:           true
-resume_section_associations:    true
-# resume_section_interests:       true
+# Skills Category
+skills:
+  - title: Languages & Frameworks
+    content: Java, Kotlin, Spring Boot, Spring MVC, Python, ReactJS, TypeScript
+  - title: Architecture & Infrastructure
+    content: Distributed Systems, Kafka, MySQL, Redis, AWS, Kubernetes, Terraform
+  - title: AI & Productivity
+    content: LLM-based agents (Ollama), GitHub Copilot, AI-Assisted Development
 
-# Resume social links
-# uncomment the options you wish to display, and add your own URL
-resume_social_links:
-  resume_github_url:            "https://github.com/jglovier/resume-template"
-  resume_twitter_url:           "http://twitter.com/jglovier"
-  resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
-  # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://joelglovier.com"
-  resume_medium_url:            "https://medium.com/@jglovier"
-resume_print_social_links:      true
-
-# Design settings
-resume_theme:                   default
-
-# Note: when editing locally, remember to restart
-# your Jekyll server when you edit this file. Changes
-# to _config.yml are only recognized when the server starts
+# Education
+education:
+  - name: Kurukshetra University
+    degree: Bachelor of Technology (Computer Science)
+    year: 2012
